@@ -1,0 +1,32 @@
+<!-- {% load staticfiles %} -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Authorization</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static "style_autho.css" %}"/>
+</head>
+<body>
+
+<div id="page">
+    <header id="header">
+      <h1>Authorization page</h1>
+    </header>
+
+    <main id="content">
+      <section>
+
+          <div class="link">
+            <a href="{% url "social:begin" "github" %}">Github authorization</a>
+          </div>
+          <div class="link">
+            <a href="{% url 'message_page' %}">Message page</a>
+          </div>
+
+      </section>
+    </main>
+</div>
+
+</body>
+</html>

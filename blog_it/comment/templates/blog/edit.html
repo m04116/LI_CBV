@@ -1,0 +1,26 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static "style_messages.css" %}" />
+    <title></title>
+  </head>
+  <body>
+    <div id="page">
+      <div class="message">
+
+        <p>Author: {{ comment.author }}</p>
+        <p>{{ comment.text|linebreaksbr }}</p>
+        <p>{{ comment.published_date }}</p>
+      </div>
+        <form method="POST">
+          {% csrf_token %}
+          {{ form }}
+          <input type="submit" value="Add comment">
+        </form>
+
+    </div>
+  </body>
+</html>

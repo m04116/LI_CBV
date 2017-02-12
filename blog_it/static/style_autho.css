@@ -1,0 +1,112 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+  font-size: 100%;
+
+}
+
+#page{
+  height: 100%;
+  min-height: 100%;
+  background: #E8E7E1;
+
+}
+
+#header,
+#content {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  font-weight: normal;
+  font-family: 'Lobster';
+
+}
+
+h1 {
+  color: #364F52;
+  font-size: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.link {
+  width: 440px;
+  height: 60px;
+  margin: auto;
+  overflow: hidden;
+  font-size: 50px;
+  text-align: center;
+}
+
+.link > a {
+  display: block;
+
+  height: 100%;
+  text-decoration: none;
+  color: #1E2C2E;
+  line-height: 60px;
+}
+
+.link + .link{
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+
+/*h1, h2, h3, h4, h5, h6, p, a, {
+  margin: 0;
+  padding: 0;
+}
+
+
+#page,
+#content,
+#header,
+.container,
+.container > .inner{
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  font-weight: normal;
+}
+
+a {
+  outline: none;
+}
+
+
+
+
+#header h1{
+  font-family: "KapelkaNew";
+  color: #364F52;
+  font-size: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.link {
+  width: 340px;
+  height: 60px;
+  margin: auto;
+  overflow: hidden;
+}
+.link + .link{ margin: 15px auto; }
+
+.link > a {
+  display: block;
+  width: 340px;
+  height: 100%;
+  text-decoration: none;
+  font-family: "KapelkaNew";
+  font-size: 50px;
+  color: #1E2C2E;
+  text-align: center;
+  line-height: 60px;
+}*/

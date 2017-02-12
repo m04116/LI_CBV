@@ -1,0 +1,122 @@
+html, body, p {
+  padding: 0;
+  margin: 0;
+  min-height: auto;
+  font-size: 100%;
+  font-weight: normal;
+  background: #E8E7E1;
+  font-family: 'lobster';
+}
+
+#page,
+#content,
+#header,
+.greeting,
+.greeting > .autho{
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+
+#page{
+  height: 100%;
+  min-height: 100%;
+}
+
+ul{
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 0 40px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul li ul {
+  margin-top: 40px;
+}
+
+#header h1{
+  color: #364F52;
+  font-size: 30px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.auth {
+  color: #1E2C2E;
+  font-size: 20px;
+  text-align: center;
+}
+
+.auth > h2 {
+  font-weight:100;
+}
+
+
+.text {
+  margin: 15px 0;
+  font-weight:100;
+}
+
+.message {
+  width: 65%;
+  margin-right: 45px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  word-wrap: break-word;
+  margin-left: 30px;
+}
+
+.message + .message {
+  margin-right: 45px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #364F52;
+  margin-right: 10px;
+  outline: none;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+label {
+  display: none;
+}
+
+input {
+  font-family: 'lobster';
+  border: none;
+  background-color: #E8E7E1;
+  font-size: 20px;
+  color: #1E2C2E;
+  cursor: pointer;
+}
+
+textarea{
+  font-family: 'lobster'; 
+  outline: none;
+  margin-left: 25px;
+  background-color: #F3F3EF;
+}
+
+form > input[type="submit"]{
+  display: block;
+  width: 220px;
+  height: 54px;
+}
